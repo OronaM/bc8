@@ -31,6 +31,7 @@ public class CarritoDeComprasPage extends SeleniumBase {
         return "mensaje no valido";
     }
     public void irACarritoDeCompras(){
+        exwait(btnCarrito);
         click(btnCarrito);
         click(btnVerCarrito);
     }
